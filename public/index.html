@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application d'aide à la souscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Application d'aide à la souscription</h1>
+    </header>
+    <main>
+        <section id="projects">
+            <h2>Liste des projets/devis</h2>
+            <table id="projects-table">
+                <thead>
+                    <tr>
+                        <th>Numéro d'opportunité</th>
+                        <th>Nom du client</th>
+                        <th>Tarif proposé</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  
+                </tbody>
+            </table>
+        </section>
+        <section id="new-project">
+            <button id="new-project-btn">Nouveau devis</button>
+
+            <script>
+                // Ajoutez un écouteur d'événement pour le clic sur le bouton "Nouveau devis"
+                document.getElementById('new-project-btn').addEventListener('click', function() {
+                    // Redirigez l'utilisateur vers la nouvelle page (remplacez "page2.html" par le nom de votre fichier HTML)
+                    window.location.href = 'index2.html';
+                });
+            </script>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Application d'aide à la souscription</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
